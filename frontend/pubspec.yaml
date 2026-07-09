@@ -1,0 +1,41 @@
+name: weather_app_3d
+description: "A creative, animated 3D weather app built with Flutter."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.2
+
+  # Networking
+  http: ^1.2.1
+
+  # Fonts & UI polish
+  google_fonts: ^6.2.1
+
+  # Location
+  geolocator: ^12.0.0
+
+  # Local persistence (last searched city, unit preference, recent searches)
+  shared_preferences: ^2.2.3
+
+  # Date/number formatting
+  intl: ^0.19.0
+
+  # Smooth implicit + chained animations (used for card entrances, transitions)
+  flutter_animate: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
