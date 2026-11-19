@@ -196,6 +196,7 @@ transforms, `AnimationController`s, and `BackdropFilter` blur. That means:
 - Add air quality index card
 - Add a settings screen (theme, default city, refresh interval)
 - Deploy the backend to Render/Railway/Fly.io and ship the API URL via `--dart-define`
+- Read more about my projects on https://neemii.dev/projects/
 
 ---
 
